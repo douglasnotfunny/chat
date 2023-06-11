@@ -19,8 +19,6 @@ Este projeto tem como objetivo criar uma integração com o ChatGPT e dar a melh
     pip install -r requirements.txt
    
   3. Criar .env baseado no .env.example e inserir as constantes do seu banco de dados:
-    
-    python app.py
   
   4. Executar a aplicação:
     
