@@ -23,6 +23,3 @@ Este projeto tem como objetivo criar uma integração com o ChatGPT e dar a melh
   4. Executar a aplicação:
     
     python app.py
-
-
-OBS: Foi deixado o token do authorization do ChatGPT no .env.example, mas pode ser alterado pelo que desejar
