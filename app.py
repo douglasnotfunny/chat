@@ -1,16 +1,19 @@
+import os
+from dotenv import load_dotenv
 import requests
 import json
-from gensim.models import Word2Vec
 import numpy as np
-
-from text_processing import processing
+from gensim.models import Word2Vec
 
 from connection_db import create, select, save_conversa
+from text_processing import processing
+
+load_dotenv()
 
 URL = "https://api.openai.com/v1/chat/completions"
 HEADERS = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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'
+    'Authorization': os.getenv('AUTHORIZATION')
 }
 
 def read():

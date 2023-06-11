@@ -1,8 +1,8 @@
+import string
 from nltk import PorterStemmer, corpus
 from nltk.tokenize import word_tokenize
 from nltk import tokenize
 from unidecode import unidecode
-import string
 
 def pre_processing():
     foo_words = corpus.stopwords.words("portuguese")
