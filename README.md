@@ -20,8 +20,10 @@ Para iniciar deve ser feita a clonagem do projeto. Após a clonagem do projeto d
     
     pip install -r requirements.txt
    
-  3. Criar .env baseado no .env.example e inserir as constantes do seu banco de dados:
+  3. Criar .env baseado no .env.example e inserir as constantes do seu banco de dados e inserir também o token da api do OpenAI:
   
   4. Executar a aplicação:
     
     python app.py
+
+OBS: Deve ser colocado no authorization do .env da seguinte forma -> Bearer token
