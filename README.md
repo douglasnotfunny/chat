@@ -1,1 +1,23 @@
-# chat
+Chat
+
+Este projeto tem como objetivo criar uma integração com o ChatGPT e dar a melhor resposta sem a necessidade de usá-lo. É necessário ter o MySQL instalado no computador para salvar e recuperar os dados.
+
+  1. Criar ambiente virtual:
+    
+    python3.10 -m venv env
+    
+  1.1. Ativar ambiente de acordo com o seu sistema operacional - LINUX:
+    
+    source env/bin/activate
+    
+  1.2. Ativar ambiente de acordo com o seu sistema operacional - Windows:
+    
+    source env/Scripts/activate
+
+  2. Instalar pacotes:
+    
+    pip install -r requirements.txt
+   
+  3. Executar a aplicação:
+    
+    python app.py
