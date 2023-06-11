@@ -1,6 +1,6 @@
 Chat
 
-Este projeto tem como objetivo criar uma integração com o ChatGPT e dar a melhor resposta sem a necessidade de usá-lo. É necessário ter o MySQL instalado no computador para salvar e recuperar os dados.
+Este projeto tem como objetivo criar uma integração com o ChatGPT e dar a melhor resposta sem a necessidade de usá-lo. É necessário ter o MySQL instalado no computador para salvar e recuperar os dados. Após a clonagem do projeto executar o tutorial abaixo:
 
   1. Criar ambiente virtual:
     
